@@ -1,9 +1,17 @@
-module github.com/skyrocknroll/go-mod-example
+module github.com/kashishsolanki/dt-hrms-golang
+
+go 1.13
 
 require (
-	github.com/alecthomas/template v0.0.0-20160405071501-a0175ee3bccc // indirect
-	github.com/alecthomas/units v0.0.0-20151022065526-2efee857e7cf // indirect
-	github.com/gorilla/mux v1.6.2
-	github.com/sirupsen/logrus v1.2.0
-	gopkg.in/alecthomas/kingpin.v2 v2.2.6 // indirect
+	github.com/auth0/go-jwt-middleware v0.0.0-20190805220309-36081240882b
+	github.com/dgrijalva/jwt-go v3.2.0+incompatible
+	github.com/go-sql-driver/mysql v1.4.1
+	github.com/gorilla/mux v1.7.3
+	github.com/jmoiron/sqlx v1.2.0
+	github.com/sendgrid/rest v2.4.1+incompatible
+	github.com/sendgrid/sendgrid-go v3.5.0+incompatible
+	github.com/sethvargo/go-password v0.1.3
+	golang.org/x/crypto v0.0.0-20190308221718-c2843e01d9a2
+	google.golang.org/appengine v1.6.5
+	gopkg.in/guregu/null.v3 v3.4.0
 )
